@@ -16,15 +16,15 @@
                  url('/assets/fonts/icons.woff2') format('woff2');
         }
         :root {
-            --primary-color: #db2777; /* Pink 600 */
-            --primary-hover: #be185d; /* Pink 700 */
-            --secondary-color: #ec4899; /* Pink 500 */
+            --primary-color: #b1772d; /* Pink 600 */
+            --primary-hover: #1b191a; /* Pink 700 */
+            --secondary-color: #201b1d; /* Pink 500 */
             --danger-color: #ef4444; /* Red */
             --text-color: #1f2937; /* Gray 800 */
             --text-light: #6b7280; /* Gray 500 */
-            --background-color: #fdf2f8; /* Pink 50 */
+            --background-color: #fffefe; /* Pink 50 */
             --card-background: #ffffff;
-            --border-color: #fbcfe8; /* Pink 200 */
+            --border-color: #160f13; /* Pink 200 */
             --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
             --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
             --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -511,7 +511,7 @@
             message: null,
             cartCount: 0,
             editMode: false,
-            baseUrl: 'http://172.17.100.14:3377/default',
+            baseUrl: 'http://172.17.100.14:3377/dumo6',
             
             async fetchProducts() {
                 try {
@@ -622,7 +622,7 @@
             <div class="ui container">
                 <h2 class="ui header">
                     <i class="shopping bag icon"></i>
-                    <div class="content">DIECAST STORE</div>
+                    <div class="content">BIKE SHOP</div>
                 </h2>
                 <button class="ui button"
                         x-bind:class="editMode ? 'negative' : 'positive'"
